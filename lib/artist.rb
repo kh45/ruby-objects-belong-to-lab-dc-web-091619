@@ -1,6 +1,7 @@
 def Artist
   attr_accesor :name
   
-  def initialize
+  def initialize(name="none")
+    @name = name
   end
 end
